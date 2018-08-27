@@ -15,7 +15,7 @@ The app uses metamask to authorise buy / sell transactions.
 
 	https://github.com/danish1987/Marketplace_blockchain
 
-3. Go to the package.json path and run below cmd.
+3. Go to the package.json path and run below cmd for depndencies installation.
 
 	npm install
 
