@@ -9,9 +9,9 @@ App = {
     
       initWeb3: function() {
         // initialize web3
-        const ganache = require('ganache-cli');
+       // const ganache = require('ganache-cli');
         
-        web3Provider = ganache.provider();
+       // web3Provider = ganache.provider();
         
         if(typeof web3 !== 'undefined') {
           //reuse the provider of the Web3 object injected by Metamask
