@@ -7,12 +7,12 @@ module.exports = {
                port: 7545,
                network_id: "*" // Match any network id
           },
-          ganache-cli: {
+          ganache_cli: {
             host: "localhost",
             port: 8545,
             network_id: "*",
-            gas:4700000,
-            from:'0x4fdbea269099ab7882bbed5ce03114a3b7b2daa7'
+            gas:5000000,
+
      }
 }
 };
