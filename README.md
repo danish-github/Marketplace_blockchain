@@ -25,7 +25,7 @@ The app uses metamask to authorise buy / sell transactions.
 	
 5. Connect metamask to ganache cli by url http://127.0.0.1:8545 and import the private keys of accounts generated in ganache cli in metamask.
 
-6. Please note : If Dapp is run in ubuntu , please rename truffle-config.js to truffle.js
+6. Please note : If Dapp is being run in ubuntu , please rename truffle-config.js to truffle.js
 
 ## Test commands
 
