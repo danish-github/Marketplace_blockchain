@@ -11,6 +11,7 @@ This project uses truffle , ganache GUI / ganache cli and lite-server. Authorisa
 Project uses two sol file 
     1.  Migrations.sol - for keeping track of migrations.
     2.  Marketplace.sol - application logic sol file.
+    3. Ownable.sol - implemented for emergency stop.
 
 ## Installation
 
