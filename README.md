@@ -76,3 +76,7 @@ Test suite is written in javascript .
 6.  Metamask window will pop up for transaction authorisation . Click on submit.
 7.  Details of the events will be visible in events tab.
 8.  Now , if you change to first account in metamask and refresh the browser, details on who has brought the article will be visible in events button.
+
+## Screenshot for Account 1 - Buy article
+
+![account_1](https://user-images.githubusercontent.com/33827810/44811615-ad233080-abf2-11e8-8d64-8f3a15bf4c58.JPG)
