@@ -63,7 +63,7 @@ For deploying contracts in ganache cli (port 8545) , use below cmd.
 
    truffle migrate --compile-all --reset --network ganache_cli
 
-Test suite is written in javascript .
+Test suite is written in javascript . Test scenarios are written in 2 files ie. MarketplaceExceptions.js and MarketplaceTest.js . They contain 4 test cases each .
 
 ## How it works ?
 
@@ -76,3 +76,16 @@ Test suite is written in javascript .
 6.  Metamask window will pop up for transaction authorisation . Click on submit.
 7.  Details of the events will be visible in events tab.
 8.  Now , if you change to first account in metamask and refresh the browser, details on who has brought the article will be visible in events button.
+
+## Screenshot for Account 1 - Sell article
+
+![account_1](https://user-images.githubusercontent.com/33827810/44811615-ad233080-abf2-11e8-8d64-8f3a15bf4c58.JPG)
+
+## Screenshot for Account 2 - Buy Article
+
+![account_2a](https://user-images.githubusercontent.com/33827810/44811732-068b5f80-abf3-11e8-937f-d6f36206e4b7.JPG)
+
+## Screenshot for Account 2 - Buy article (Events button)
+
+![account_2b](https://user-images.githubusercontent.com/33827810/44811851-4a7e6480-abf3-11e8-956d-8a53ec87a619.JPG)
+
