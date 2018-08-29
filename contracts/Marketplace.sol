@@ -1,6 +1,8 @@
 pragma solidity ^0.4.18;
 
-contract Marketplace {
+import "./Ownable.sol";
+
+contract Marketplace is Ownable{
   //state variables
   address seller;
   address buyer;
@@ -21,6 +23,14 @@ event LogBuyArticle(
   string _name,
   uint256 _price
 );
+
+//deactivate the contract
+function kill() public onlyOwner{
+    //only allow conract owner
+   // require(msg.sender==owner);
+
+    selfdestruct(owner);
+}
 
 function sellArticle(string _name,string _description, uint256 _price) public {
   seller = msg.sender;
