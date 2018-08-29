@@ -1,15 +1,18 @@
 If you find any issues in running the below Dapp , please contact me on er_danish@ymail.com and I will reply asap ...Cheers !!
 
-##Project Description
+## Project Description
 
 Marketplace
 This Dapp is a online marketplace where people can buy /sell article using Ethereum accounts. This has been implemented using truffle box. Below mentioned are steps for installation and for runnning truffle tests. The app uses metamask to authorise buy / sell transactions.
 
-##Project architecture
+## Project architecture
 
 This project uses truffle , ganache GUI / ganache cli and lite-server. Authorisation is done by metamask. 
+Project uses two sol file 
+    1.  Migrations.sol - for keeping track of migrations.
+    2.  Marketplace.sol - application logic sol file.
 
-##Installation
+## Installation
 
 Please note : If Dapp is being run in ubuntu , please rename truffle-config.js to truffle.js
 
@@ -46,7 +49,7 @@ This project uses lite-server . Please go to package.json path and run below cmd
 
 A browser for the Dapp will be launched at http://localhost:3000 
 
-##Test commands
+## Test commands
 
 Test command using truffle
 
@@ -62,7 +65,7 @@ For deploying contracts in ganache cli (port 8545) , use below cmd.
 
 Test suite is written in javascript .
 
-##How it works ?
+## How it works ?
 
 1.  As soon as browser launches at http://localhost:3000 , ether balance for first account and address will be visible on first screen .
 2.  Select sell an article, enter the details and click on submit.
